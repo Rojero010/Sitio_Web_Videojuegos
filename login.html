@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>GameInfo - Know your games</title>
+        <meta name="description"
+              content="GameInfo is a page to get the latest info related to games."/>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    </head>
+<body style="background-color: #f4f4f4; color:#333">
+  <header>
+    <nav class='cf'>
+      <ul class='cf'>
+        <li class="hide-on-small">
+          <a href="index.html">GameInfo</a>
+        </li>
+        <li>
+          <a href='index.html'>Home</a>
+        </li>
+        <li>
+          <a href="blogs.html">Blogs</a>
+        </li>
+        <li>
+          <a href='platforms.html'>Platforms</a>
+        </li>
+        <li class="dropdown">
+            <a>Genres</a>
+            <div class="dropdown-content">
+              <a href="action.html">Action</a>
+              <a href="role-playing.html">Role-playing</a>
+              <a href="adventure-casual.html">Adventure & Casual</a>
+              <a href="strategy.html">Strategy</a>
+              <a href="simulation.html">Simulation</a>
+              <a href="sports-racing.html">Sports & Racing</a>
+        </li>
+        <li style="float:right;">
+          <b><a href="login.html" style="color:#3bf;"> Register</a></b>
+        </li>
+        <li style="float:right;">
+          <a href="login.html">Login</a>
+        </li>
+      </ul>
+      <a href='index.html' id='openup'>GameInfo</a>
+    </nav>
+  </header>
+
+      <section class="login center container">
+        <div class="grid-3">
+            <div>
+                <h1 style="color:#333"><b>Log-in</b></h1>
+                <form action="login.html" method="post">
+                <div>
+                  <br><br>
+                  <span class="fas fa-sign-in-alt fa-4x"></span>
+                </div>
+
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <br>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <br><br>
+                  <label for="psw"><b>Password</b></label>
+                  <br>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <br><br>
+                  <label>
+                    <input type="checkbox" name="remember">Remember me
+                  </label>
+                  <br><br>
+                  <button class="button" type="submit" href="#">Login</button>
+                  <br><br><br>
+                  <span><a class="text" style=" color: #0af;" href="#">Forgot password?</a></span>
+                </div>
+              </form>
+            </div>
+            <div>
+            </div>
+            <div>
+                
+                <h1 style="color:#333"><b>Register</b></h1>
+                <form onSubmit="return validateEmail(this);" action="mailto:raul.acuna@udem.edu" method="post" enctype ="text/plain">
+                    <div class="center">
+                      <br><br>
+                      <span class="fas fa-address-card fa-4x"></span>
+                    </div>
+                  
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <br>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                      <br><br>
+                      <label for=""><b>Email</b></label>
+                      <br>
+                      <input type="text" placeholder="Enter Email" name="eEmail" required>
+                      <br><br>
+                      <label for="psw"><b> Password </b></label>
+                      <br>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <br><br>
+                      <label for="2psw"><b> Confirm Password </b></label>
+                      <br>
+                      <input type="password" placeholder="Enter Password" name="2psw" required>
+                      <br><br>
+                      <button class="button" type="submit" href="#">Register</button>
+                      
+                    </div>
+                  </form>
+            </div>
+        </div>
+      </section>
+      <br>
+      <footer class="center bg-dark">
+        <div class="container grid-3">
+          <div>
+            <p>GameInfo &copy;</p> <span id="year"></span>
+          </div>
+          <div>
+            <a href="terms.html">Terms and Conditions of Service</a>
+          </div>
+          <div>
+            <p>Do you need help? Contact us</p>
+            <div class="grid-2">
+                <a class="fab fa-facebook-square fa-3x" href="https://www.facebook.com/" target="_blank"></a>
+                <a class="fab fa-instagram fa-3x" href="https://www.instagram.com/" target="_blank"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+</body>
+</body>
+</html>
